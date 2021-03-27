@@ -1,0 +1,59 @@
+/* Index.php CSS */
+.news-link {
+    color: #000;
+}
+
+.news-link:hover,
+.card-text:focus-visible {
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+.card-text:hover {
+    text-decoration: underline;
+}
+
+.card-text:visited {
+    color: #757575;
+}
+
+.news-date:hover,
+.news-date:focus-visible,
+.news-date:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+/* End of Index.php CSS */
+
+/* News.php CSS */
+#comment-form {
+    position: relative;
+}
+
+#commentHere {
+    resize: none;
+    width: 100%;
+    height: 60px;
+}
+
+.post-comment{
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+    color: #0095f6;
+    background: none;
+}
+
+.post-comment:focus{
+    box-shadow: none;
+}
+
+.username{
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* End of News.php CSS */
