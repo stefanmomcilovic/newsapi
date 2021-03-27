@@ -35,7 +35,7 @@ $title = str_replace("-", " ", $title);
                 <div class="text-center">
                     <span class="fb-share-button mr-1" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://facebook.com/sharer/sharer.php?u=<?= 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" class="fb-xfbml-parse-ignore"><i class="fab fa-facebook fa-2x text-primary"></i></a></span>
                     <span class="mr-1"> <a href="whatsapp://send?text=<?= 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" data-action="share/whatsapp/share" target="_blank"><i class="fab fa-whatsapp fa-2x text-success"></i></a></span>
-                    <span class="mr-1"><a href="https://twitter.com/share?ref_src=<?= 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" data-show-count="true" target="_blank"><i class="fab fa-twitter fa-2x text-primary"></i></a></span>
+                    <span class="mr-1"><a href="https://twitter.com/share?url=<?= 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" data-show-count="true" target="_blank"><i class="fab fa-twitter fa-2x text-primary"></i></a></span>
                     <span class="mr-1">
                         <a href="https://t.me/share/url?url=<?= 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" target="_blank">
                             <i class="fab fa-telegram fa-2x text-primary"></i>
